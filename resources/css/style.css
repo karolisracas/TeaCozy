@@ -1,11 +1,6 @@
 
 /* BASIC SETUP */
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
@@ -31,14 +26,6 @@ h3,
 h4 {
   margin: 0;
   padding: 10px;
-}
-
-p {
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
 }
 
 /* HEADER */
@@ -145,3 +132,17 @@ nav span {
 .flex-container.locations {
   padding-top: 5px;
 }
+
+/* CONTACT SECTiON */
+
+#contact {
+  height: 200px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
