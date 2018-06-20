@@ -1,6 +1,5 @@
-/* ---------------------------- */
+
 /* BASIC SETUP */
-/* ---------------------------- */
 
 * {
   margin: 0;
@@ -15,10 +14,7 @@ body {
   text-align: center;
 }
 
-
-/* ---------------------------- */
 /* REUSABLE COMPOTENTS */
-/* ---------------------------- */
 
 .flex-container {
   display: flex;
@@ -30,9 +26,14 @@ a {
   color: seashell;
 }
 
-/* ---------------------------- */
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
 /* HEADER */
-/* ---------------------------- */
 
 header {
   width: 100%;
@@ -57,4 +58,28 @@ nav {
 nav span {
   display: inline-block;
   padding-right: 20px;
+}
+
+/* MAIN SECTION */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* MISSION SECTION */
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
 }
