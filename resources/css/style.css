@@ -17,8 +17,15 @@ body {
   flex-wrap: wrap;
 }
 
-a {
+a:link,
+a:visited {
   color: seashell;
+  transition: color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #ffe1cc;
 }
 
 h2,
